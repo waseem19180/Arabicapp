@@ -1,0 +1,6 @@
+{
+  "name": "الممنوع من الصرف - Mamnou Min Al-Sarf",
+  "description": "شرح شامل ومبسط لدرس الممنوع من الصرف لطلبة الثانوية العامة (توجيهي فلسطين) مع بنك أسئلة واختبارات تفاعلية ضع دائرة مع تعليل الإجابات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
