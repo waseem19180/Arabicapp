@@ -63,7 +63,7 @@ export const LessonView: React.FC<LessonViewProps> = ({ onStartQuiz }) => {
               <span>منهاج الثانوية العامة الفلسطيني (توجيهي) • شرح الدرس المعتمد</span>
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 text-emerald-200 text-xs font-bold border border-white/20">
-              إشراف ومصدر الشرح: أ. همام إسماعيل
+              إشراف رئيس دائرة العربي الأستاذ القدير همام إسماعيل
             </span>
           </div>
 

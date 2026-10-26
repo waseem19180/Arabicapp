@@ -32,26 +32,32 @@ export default function App() {
       {/* Footer with High-Prominence Attribution */}
       <footer className="bg-white border-t border-slate-200 py-6 text-xs text-slate-500">
         <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2 text-center sm:text-right">
-            <GraduationCap className="w-5 h-5 text-emerald-600 shrink-0" />
+          <div className="flex items-center gap-2.5 text-center sm:text-right">
+            <div className="w-8 h-8 rounded-lg bg-white border border-emerald-200 overflow-hidden shrink-0 flex items-center justify-center p-0.5">
+              <img
+                src="https://i.postimg.cc/64C6LyDw/FA95464D-14F5-46F7-B40B-EF14ACC7119E.png"
+                alt="شعار دائرة اللغة العربية - مدرسة الحصاد التربوي"
+                className="w-full h-full object-contain"
+              />
+            </div>
             <div>
               <span className="font-extrabold text-slate-800 block sm:inline">
-                الممنوع من الصرف • منهاج الثانوية العامة (توجيهي فلسطين)
+                الممنوع من الصرف • توجيهي فلسطين
               </span>
               <span className="text-slate-400 block sm:inline sm:mr-2">
-                اللغة العربية (النحو والصرف)
+                دائرة اللغة العربية — مدرسة الحصاد التربوي
               </span>
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-4 text-xs font-semibold">
-            <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
-              <UserCheck className="w-3.5 h-3.5 text-emerald-600" />
-              <span>المشرف ومصدر الشرح: <strong className="font-black text-emerald-950">الأستاذ القدير همام إسماعيل</strong></span>
+          <div className="flex flex-wrap items-center justify-center gap-3 text-xs font-semibold">
+            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+              <UserCheck className="w-4 h-4 text-emerald-600" />
+              <span>إشراف رئيس دائرة العربي: <strong className="font-black text-emerald-950">الأستاذ القدير همام إسماعيل</strong></span>
             </div>
-            <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-800 border border-slate-200">
-              <Code className="w-3.5 h-3.5 text-slate-500" />
-              <span>مطور البرنامج: <strong className="font-black text-slate-900">وسيم قيمري</strong></span>
+            <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white text-slate-800 border-2 border-emerald-400 shadow-xs">
+              <Code className="w-4 h-4 text-emerald-600" />
+              <span className="text-xs sm:text-sm font-bold">برمجة وتطوير: <strong className="font-black text-emerald-950 text-sm sm:text-base">وسيم قيمري</strong></span>
             </div>
           </div>
         </div>

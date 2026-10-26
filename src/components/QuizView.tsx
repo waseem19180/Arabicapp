@@ -143,7 +143,7 @@ export const QuizView: React.FC<QuizViewProps> = ({ onGoToLesson }) => {
                 نتيجة الاختبار النهائي
               </span>
               <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-white/10 text-white border border-white/20">
-                إشراف: أ. همام إسماعيل
+                إشراف رئيس دائرة العربي الأستاذ القدير همام إسماعيل
               </span>
             </div>
 
@@ -484,9 +484,9 @@ export const QuizView: React.FC<QuizViewProps> = ({ onGoToLesson }) => {
       </div>
 
       {/* Credit footer note inside quiz view */}
-      <div className="text-center text-xs text-slate-400 font-medium space-y-1">
-        <div>إشراف ومصدر الشرح: <span className="text-emerald-700 font-bold">الأستاذ القدير همام إسماعيل</span></div>
-        <div>برمجة وتطوير: <span className="text-slate-700 font-bold">وسيم قيمري</span></div>
+      <div className="text-center text-xs text-slate-400 font-medium space-y-1.5 pt-2">
+        <div>إشراف: <span className="text-emerald-700 font-bold">رئيس دائرة العربي الأستاذ القدير همام إسماعيل</span> (مدرسة الحصاد التربوي)</div>
+        <div className="text-sm">برمجة وتطوير: <strong className="text-emerald-950 font-black text-base">وسيم قيمري</strong></div>
       </div>
     </div>
   );
